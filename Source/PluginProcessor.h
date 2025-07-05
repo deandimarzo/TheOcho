@@ -59,7 +59,7 @@ private:
     
     // Declare the main input variables
     float lastInputSample = 0.0f;
-    float flipMult = 0.0f; // flips on every other zero crossing.
+    float flipMult = 1.0f; // flips on every other zero crossing.
     
     
 };
